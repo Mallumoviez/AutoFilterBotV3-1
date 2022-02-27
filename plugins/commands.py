@@ -15,8 +15,8 @@ async def start(bot, message):
         await message.reply(INVITE_MSG)
     else:
         buttons = [[
-            InlineKeyboardButton('Search Here', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Go Inline', switch_inline_query=''),
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', https://t.me/Ragnar_IMDB_Bot?startgroup=true),
+            InlineKeyboardButton('My Group 📌 ', https://t.me/mallu_moviez_group=''),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(START_MSG, reply_markup=reply_markup)
